@@ -375,3 +375,9 @@ The Indicators of Compromise (IOCs) are extracted from the analyzed binary or fr
 - https://www.virustotal.com/gui/file/44e65a641fb970031c5efed324676b5018803e0a768608d3e186152102615795/detection
 - https://attack.mitre.org/techniques/T1566/001/
 - https://www.filescan.io/uploads/6959879c8d1aa9829e29c8dd/reports/12bf808d-fc81-41b1-b266-ab782f6f76ec/overview
+
+
+## Tags
+
+#CyberSecurity #SOC #BlueTeam #ThreatDetection #IncidentResponse #Phishing #EmailSecurity #ThreatIntel #DFIR #MalwareAnalysis #YARA #IOC #MITREATTACK #SecurityOperations #InfoSec #CyberDefense #DetectionEngineering #SOCAnalyst #ThreatHunting #DigitalForensics
+
