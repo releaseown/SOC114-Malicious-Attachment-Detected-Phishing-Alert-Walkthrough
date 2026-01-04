@@ -307,27 +307,67 @@ rule autogen_xlsx_EmbedequationEvasiveExploitLolbinShellcodeVbc_44e65a64
 }
 ```
 
-## Indicators of Compromise (IOCs)
+## **Indicators of Compromise (IOCs)**
 
-The IOCs below were extracted from the analyzed binary or derived artifacts. High-confidence indicators are highlighted.
+The Indicators of Compromise (IOCs) are extracted from the analyzed binary or from artifacts derived during analysis (for example, extracted files). Indicators with a high likelihood of representing a genuine IOC are marked as **interesting**.
 
-**URLs**
+**Urls** 
 
-| IOC | Prevalence | OSINT | Verdict |
+| **IOC** | **Prevalence** | **OSINT** | **Verdict** |
 | --- | --- | --- | --- |
-| http://andaluciabeach.net/image/network.exe | [1](https://www.filescan.io/search-result?query=aHR0cDovL2FuZGFsdWNpYWJlYWNoLm5ldC9pbWFnZS9uZXR3b3JrLmV4ZQ%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=aHR0cDovL2FuZGFsdWNpYWJlYWNoLm5ldC9pbWFnZS9uZXR3b3JrLmV4ZQ%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | CL | Compromised |
+| http://andaluciabeach.net/image/network.exe | [1](https://www.filescan.io/search-result?query=aHR0cDovL2FuZGFsdWNpYWJlYWNoLm5ldC9pbWFnZS9uZXR3b3JrLmV4ZQ%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=aHR0cDovL2FuZGFsdWNpYWJlYWNoLm5ldC9pbWFnZS9uZXR3b3JrLmV4ZQ%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | **CL** | Compromised |
+| **Origin:** VBA emulation |  |  |  |
 
 **Domains**
 
-| IOC | Prevalence | Verdict |
+| **IOC** | **Prevalence** | **Verdict** |
 | --- | --- | --- |
 | andaluciabeach.net | [1](https://www.filescan.io/search-result?domain=andaluciabeach.net&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?domain=andaluciabeach.net&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| **Origin:** VBA emulation |  |  |
 
 **IPs**
 
-| IOC | Location | For domain | Prevalence | OSINT | Verdict |
+| **IOC** | **Location** | **For domain** | **Prevalence** | **OSINT** | **Verdict** |
 | --- | --- | --- | --- | --- | --- |
-| 70.38.21.234 | - | DNS resolution | [1](https://www.filescan.io/search-result?query=NzAuMzguMjEuMjM0&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=NzAuMzguMjEuMjM0&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | U | Compromised |
+| 70.38.21.234 | - | resolução de DNS | [1](https://www.filescan.io/search-result?query=NzAuMzguMjEuMjM0&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=NzAuMzguMjEuMjM0&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | **U** | Compromised |
+| **Origin:** Domain resolve |  |  |  |  |  |
+| andaluciabeach.net | [Canada, Montreal](https://www.filescan.io/#0) | - | [1](https://www.filescan.io/search-result?query=YW5kYWx1Y2lhYmVhY2gubmV0&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=YW5kYWx1Y2lhYmVhY2gubmV0&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) |  | Compromised |
+| **Origin:** VBA emulation |  |  |  |  |  |
+
+**MD5**
+
+| 59f49d53c17e600ddb0d713ca0394372 | [1](https://www.filescan.io/search-result?query=NTlmNDlkNTNjMTdlNjAwZGRiMGQ3MTNjYTAzOTQzNzI%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=NTlmNDlkNTNjMTdlNjAwZGRiMGQ3MTNjYTAzOTQzNzI%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| --- | --- | --- |
+| **Origin:** VBA emulation |  |  |
+| 39519ab341387a816870ac9bfa4fc5de | [1](https://www.filescan.io/search-result?query=Mzk1MTlhYjM0MTM4N2E4MTY4NzBhYzliZmE0ZmM1ZGU%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=Mzk1MTlhYjM0MTM4N2E4MTY4NzBhYzliZmE0ZmM1ZGU%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| 3eb758fd53cd227f6736fd7108166e2d | [1](https://www.filescan.io/search-result?query=M2ViNzU4ZmQ1M2NkMjI3ZjY3MzZmZDcxMDgxNjZlMmQ%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=M2ViNzU4ZmQ1M2NkMjI3ZjY3MzZmZDcxMDgxNjZlMmQ%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+
+**SHA1**
+
+| **IOC** | **Prevalence** | **Verdict** |
+| --- | --- | --- |
+| f31fcc280c08ff4b52f98fa0ad39a41b8bf55fd7 | [1](https://www.filescan.io/search-result?query=ZjMxZmNjMjgwYzA4ZmY0YjUyZjk4ZmEwYWQzOWE0MWI4YmY1NWZkNw%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=ZjMxZmNjMjgwYzA4ZmY0YjUyZjk4ZmEwYWQzOWE0MWI4YmY1NWZkNw%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| **Origin:** VBA emulation |  |  |
+| 015fc813fe78118f3aa73978abe78eb893f9b4df | [1](https://www.filescan.io/search-result?query=MDE1ZmM4MTNmZTc4MTE4ZjNhYTczOTc4YWJlNzhlYjg5M2Y5YjRkZg%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=MDE1ZmM4MTNmZTc4MTE4ZjNhYTczOTc4YWJlNzhlYjg5M2Y5YjRkZg%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| d76c78f497c799ed072a061f53bb19f3a381f475 | [1](https://www.filescan.io/search-result?query=ZDc2Yzc4ZjQ5N2M3OTllZDA3MmEwNjFmNTNiYjE5ZjNhMzgxZjQ3NQ%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=ZDc2Yzc4ZjQ5N2M3OTllZDA3MmEwNjFmNTNiYjE5ZjNhMzgxZjQ3NQ%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+
+**SHA-256**
+
+| **IOC** | **Prevalence** | **Verdict** |
+| --- | --- | --- |
+| 678012ef01aa26aea36b3326cea32e1ec7e3c6072bd7a68fe4b5ec8453cd8bbd | [1](https://www.filescan.io/search-result?query=Njc4MDEyZWYwMWFhMjZhZWEzNmIzMzI2Y2VhMzJlMWVjN2UzYzYwNzJiZDdhNjhmZTRiNWVjODQ1M2NkOGJiZA%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=Njc4MDEyZWYwMWFhMjZhZWEzNmIzMzI2Y2VhMzJlMWVjN2UzYzYwNzJiZDdhNjhmZTRiNWVjODQ1M2NkOGJiZA%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| **Origin:** VBA emulation |  |  |
+| 56b1edecc9a282a9faafd95d4d9844608b1ae5ccc8731f34f8b30b3825734974 | [1](https://www.filescan.io/search-result?query=NTZiMWVkZWNjOWEyODJhOWZhYWZkOTVkNGQ5ODQ0NjA4YjFhZTVjY2M4NzMxZjM0ZjhiMzBiMzgyNTczNDk3NA%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=NTZiMWVkZWNjOWEyODJhOWZhYWZkOTVkNGQ5ODQ0NjA4YjFhZTVjY2M4NzMxZjM0ZjhiMzBiMzgyNTczNDk3NA%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| 9dc437b0afac437902c55cb4c3b12298f8e46bfc052b171c079f91c92f17b6e5 | [1](https://www.filescan.io/search-result?query=OWRjNDM3YjBhZmFjNDM3OTAyYzU1Y2I0YzNiMTIyOThmOGU0NmJmYzA1MmIxNzFjMDc5ZjkxYzkyZjE3YjZlNQ%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?query=OWRjNDM3YjBhZmFjNDM3OTAyYzU1Y2I0YzNiMTIyOThmOGU0NmJmYzA1MmIxNzFjMDc5ZjkxYzkyZjE3YjZlNQ%3D%3D&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+
+**UUIDs**
+
+| **IOC** | **Prevalence** | **Verdict** |
+| --- | --- | --- |
+| FF9A3F03-56EF-4613-BDD5-5A41C1D07246 | [1](https://www.filescan.io/search-result?uuid=FF9A3F03-56EF-4613-BDD5-5A41C1D07246&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[1](https://www.filescan.io/search-result?uuid=FF9A3F03-56EF-4613-BDD5-5A41C1D07246&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| **Origin:** Input file |  |  |
+| 0002CE02-0000-0000-C000-000000000046 | [6](https://www.filescan.io/search-result?uuid=0002CE02-0000-0000-C000-000000000046&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&age=7)[6](https://www.filescan.io/search-result?uuid=0002CE02-0000-0000-C000-000000000046&exclude=12bf808d-fc81-41b1-b266-ab782f6f76ec&verdict_groups=malicious%2Clikely_malicious&age=7) | Compromised |
+| **Origin:** VBA emulation |  |  |
 
 ## Research
 
