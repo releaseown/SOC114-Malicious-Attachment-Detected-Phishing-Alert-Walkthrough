@@ -1,4 +1,4 @@
-# SOC114 – Malicious Attachment Detected – Phishing Alert
+# SOC114–Malicious-Attachment-Detected–Phishing Alert
 Event ID: 45 – Análise Completa e Walkthrough – LetsDefend
 
 Autores: Rian Jr. | Release
